@@ -1,0 +1,164 @@
+/* Start Main Rulez */
+
+body
+{
+	background-color:#596275;
+	font-size: 16px;
+}
+
+.asterisk
+{
+	font-size: 36px;
+    color: red;
+    position: absolute;
+    right: 29px;
+    top: 4px;
+}
+
+/* End Main Rulez */
+
+/*Start Login Form*/
+
+.login
+{
+	width: 300px;
+	margin: 100px auto;
+	
+}
+
+.login h4
+{
+	color: #fff;
+	font-size: 40px;
+}
+
+.login input
+{
+	margin-bottom: 10px;
+}
+
+.login .form-control
+{
+	background-color: #282f46;
+	padding: 20px;
+	color: #fff
+}
+
+.login .btn
+{
+	background-color: #435590;
+	font-size: 30px;
+	line-height: 100%;
+}
+
+/*End Login Form*/
+
+/*Start Bootstrap Edits*/
+
+.navbar
+{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-inverse
+{
+	background-color: #303952;
+	border: none;
+}
+
+.navbar-inverse .navbar-brand
+{
+	font-size:1em;
+}
+
+.nav > li > a,
+.navbar-inverse .navbar-brand
+{
+	padding: 15px 12px;
+}
+
+.navbar-inverse .navbar-collapse .navbar-nav a[class="dropdown-toggle"],.dropdown-menu
+{
+	background-color: #596275;
+}
+
+.dropdown-menu
+{
+	min-width: 200px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a
+{
+	padding: 10px 12px;
+	color: #9d9d9d;
+	-webkit-transition:padding .5s ease-in-out;
+	-moz-transition:padding .5s ease-in-out;
+	-o-transition:padding .5s ease-in-out;
+	transition:padding .5s ease-in-out;
+}
+.dropdown-menu > li > a:hover
+{
+	padding-left: 15px;
+	background-color: #303952;
+	color:#fff;
+}
+
+
+/*End Bootstrap Edits*/
+
+/* Start Member Page */
+
+.form-control
+{
+	position: relative;
+}
+.container h1.Edit,
+.container h1.Update,
+.container h1.Insert,
+.container h1.Manage,
+.container h1.Delete
+{
+	font-size: 55px !important;
+    margin: 25px 0 !important;
+    color: #999 !important;
+    padding: 10px 35px;
+}
+
+
+.form-horizontal .form-group .member .form-control
+{
+	background-color: #303952;
+	color:#fff;
+}
+
+.form-horizontal .form-group .member .btn
+{
+	background-color: #3c4048;
+	color:#fff;
+}
+
+.show-pass
+{
+	position: absolute;
+	top: 7px;
+	right: -20px;
+}
+
+.container .Manage .table-resposnsive .main-table tr:first-child td
+{
+	color:#fff;
+	background-color: #303952;
+}
+
+.container .Manage .table-resposnsive .main-table tr td
+{
+	color:#fff;
+	background-color: #227093;
+}
+
+/* End Member Page */

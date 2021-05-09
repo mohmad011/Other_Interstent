@@ -1,0 +1,77 @@
+input ==> name folder 								create js folder && file
+
+if name folder is exist or not
+	mkdir(name folder)
+
+
+input ==> you want name folder js (yes or no )
+
+if input == yes 
+	input ==> name folder js
+	if name folder is exist or not
+		mkdir(name folder)
+	chdir(name folder)
+	open('main.js' , 'w+')
+if input == no
+	input ==> you want create file js (yes or no )
+	if input == yes
+		open('main.js' , 'w+')
+	else:
+		print('oky thanks')
+
+//////////////////////////////////////////////////////////////////////////// create html folder && file
+
+input ==> you want name folder html (yes or no )
+
+if input == yes 
+	input ==> name folder html
+	if name folder is exist or not
+		mkdir(name folder html)
+	chdir(name folder html)
+	open('main.html' , 'w+')
+if input == no
+	input ==> you want create file js (yes or no )
+	if input == yes
+		open('main.html' , 'w+')
+	else:
+		print('oky thanks')
+
+//////////////////////////////////////////////////////////////////////////// create css folder && file
+
+input ==> you want name folder css (yes or no )
+
+if input == yes 
+	input ==> name folder css
+	if name folder is exist or not
+		mkdir(name folder css)
+	chdir(name folder css)
+	open('main.css' , 'w+')
+if input == no
+	input ==> you want create file js (yes or no )
+	if input == yes
+		open('main.css' , 'w+')
+	else:
+		print('oky thanks')
+
+//////////////////////////////////////////////////////////////////////////// create images folder
+
+input ==> you want name folder images (yes or no )
+
+if input == yes 
+	input ==> name folder images
+	if name folder is exist or not
+		mkdir(name folder images)
+if input == no
+		print('oky thanks')
+
+//////////////////////////////////////////////////////////////////////////// create fonts folder
+
+input ==> you want name folder fonts (yes or no )
+
+if input == yes 
+	input ==> name folder fonts
+	if name folder is exist or not
+		mkdir(name folder fonts)
+if input == no
+		print('oky thanks')
+

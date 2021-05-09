@@ -1,0 +1,7 @@
+https://github.com/nbebaw/boostchanger?fbclid=IwAR04DkABXpK-X_pQwcCZTNs0lUbeIUTWiCo3hxnD-T4BZ8u5cmBFZP1NomE
+
+
+
+
+
+sudo sysctl kernel.unprivileged_userns_clone=1
